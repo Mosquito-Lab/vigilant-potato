@@ -1,9 +1,9 @@
 from PySide6.QtGui import QIcon, QPixmap
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QSplashScreen, QLineEdit, QPushButton, QDialog, \
-    QWidget, QToolBar, QLabel
+    QWidget, QToolBar
 
-from Delta_Team.Smoke.Defaults.Menubars.menubars import TextEditMenuBar
+from Delta_Team.Smoke.Defaults.Bars.menubars import TextEditMenuBar
 from Delta_Team.Images.image_finder import get_image
 
 App = QApplication()
